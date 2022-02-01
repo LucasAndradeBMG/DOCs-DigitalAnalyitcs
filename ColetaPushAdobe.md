@@ -34,7 +34,7 @@ Os parâmetros a seguir são inseridos no payload da notificação por push. Ess
 
 | Chave          | Valor               | Detalhe                                                                           | 
 |----------------|---------------------|-----------------------------------------------------------------------------------|
-| C              | produto-responsavel | Enviar o produto que disparou o push por exemplo: PIX, Transferencia, Cartao, ... | 
+| c              | produto-responsavel | Enviar o produto que disparou o push por exemplo: PIX, Transferencia, Cartao, ... | 
 | is_retargeting | true                | Sempre enviar true para que a coleta do push seja realizada                       |
 | pid            | push-transacional   | Para pushs transacionais sempre enviar push-transacional                          |
 
